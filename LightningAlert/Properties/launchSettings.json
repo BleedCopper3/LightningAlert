@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LightningAlert": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Rissa\\PycharmProjects\\LightningAlert\\assets.json C:\\Users\\Rissa\\PycharmProjects\\LightningAlert\\lightning.json"
+    }
+  }
+}
