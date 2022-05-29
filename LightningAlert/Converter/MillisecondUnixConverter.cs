@@ -15,7 +15,7 @@ namespace LightningAlert.Converter
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            writer.WriteRawValue(((DateTime)value - _epoch).TotalMilliseconds + "000");
+            writer.WriteRawValue(((DateTime)value - _epoch).TotalMilliseconds.ToString());
         }
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
