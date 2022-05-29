@@ -1,10 +1,10 @@
 #Lightning Alert
 
 ##How to Run:
-- EXE is in LightningAlert/bin/Release/net6.0/LightningAlert.exe
+- [For GoogleDrive] EXE is in LightningAlert/bin/Release/net6.0/LightningAlert.exe
 	- CMD Command: LightningAlert.exe <asset file> <lightning file>
 		- Ex: LightningAlert.exe ..\..\..\..\assets.json ..\..\..\..\lightning.json
-- It is also possible to do a build&run using dotnet run in LightningAlert folder
+- [For GoogleDrive/Github] It is also possible to do a build&run using dotnet run in LightningAlert folder
 	- CMD Command: dotnet run <asset file> <lightning file>
 		- Ex: dotnet run ..\assets.json ..\lightning.json
 
